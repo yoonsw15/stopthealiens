@@ -6,6 +6,9 @@
 //  Copyright (c) 2013년 HSW Studio. All rights reserved.
 //
 
+//I have editted From this Thomas
+
+
 #import "MyScene.h"
 
 @implementation MyScene
