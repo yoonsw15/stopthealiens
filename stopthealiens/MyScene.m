@@ -7,7 +7,10 @@
 //
 
 //I have editted From this Thomas
-//good hello 
+//good hello
+
+
+fdsfss 
 
 #import "MyScene.h"
 
