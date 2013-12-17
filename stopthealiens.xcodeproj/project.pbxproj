@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3324BD9018602CA200412B75 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3324BD8F18602CA200412B75 /* GameOverScene.m */; };
+		3324BD9418602F0100412B75 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3324BD9218602F0100412B75 /* background-music-aac.caf */; };
+		3324BD9518602F0100412B75 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3324BD9318602F0100412B75 /* pew-pew-lei.caf */; };
+		3324BD9718602F0800412B75 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3324BD9618602F0800412B75 /* sprites.atlas */; };
 		E3123D801860264E005A09E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3123D7F1860264E005A09E4 /* Foundation.framework */; };
 		E3123D821860264E005A09E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3123D811860264E005A09E4 /* CoreGraphics.framework */; };
 		E3123D841860264E005A09E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3123D831860264E005A09E4 /* UIKit.framework */; };
@@ -37,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3324BD8E18602CA200412B75 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		3324BD8F18602CA200412B75 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		3324BD9218602F0100412B75 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		3324BD9318602F0100412B75 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		3324BD9618602F0800412B75 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 		E3123D7C1860264E005A09E4 /* stopthealiens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stopthealiens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3123D7F1860264E005A09E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3123D811860264E005A09E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3324BD9118602F0100412B75 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3324BD9218602F0100412B75 /* background-music-aac.caf */,
+				3324BD9318602F0100412B75 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		E3123D731860264E005A09E4 = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +141,9 @@
 			children = (
 				E3123D901860264E005A09E4 /* AppDelegate.h */,
 				E3123D911860264E005A09E4 /* AppDelegate.m */,
+				3324BD9618602F0800412B75 /* sprites.atlas */,
 				E3123D931860264E005A09E4 /* Main.storyboard */,
+				3324BD9118602F0100412B75 /* Sounds */,
 				E3123D961860264E005A09E4 /* ViewController.h */,
 				E3123D971860264E005A09E4 /* ViewController.m */,
 				E3123D991860264E005A09E4 /* MyScene.h */,
@@ -142,6 +162,8 @@
 				E3123D8A1860264E005A09E4 /* InfoPlist.strings */,
 				E3123D8D1860264E005A09E4 /* main.m */,
 				E3123D8F1860264E005A09E4 /* stopthealiens-Prefix.pch */,
+				3324BD8E18602CA200412B75 /* GameOverScene.h */,
+				3324BD8F18602CA200412B75 /* GameOverScene.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -240,10 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3324BD9718602F0800412B75 /* sprites.atlas in Resources */,
+				3324BD9418602F0100412B75 /* background-music-aac.caf in Resources */,
 				E3123D8C1860264E005A09E4 /* InfoPlist.strings in Resources */,
 				E3123D9F1860264E005A09E4 /* Images.xcassets in Resources */,
 				E3123D9D1860264E005A09E4 /* Spaceship.png in Resources */,
 				E3123D951860264E005A09E4 /* Main.storyboard in Resources */,
+				3324BD9518602F0100412B75 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3324BD9018602CA200412B75 /* GameOverScene.m in Sources */,
 				E3123D9B1860264E005A09E4 /* MyScene.m in Sources */,
 				E3123D981860264E005A09E4 /* ViewController.m in Sources */,
 				E3123D921860264E005A09E4 /* AppDelegate.m in Sources */,
@@ -476,6 +502,7 @@
 				E3123DB71860264E005A09E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3123DB81860264E005A09E4 /* Build configuration list for PBXNativeTarget "stopthealiensTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +511,7 @@
 				E3123DBA1860264E005A09E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
