@@ -7,7 +7,7 @@
 //
 
 //I have editted From this Thomas
-//good hello 
+//good hello njinijni
 
 #import "MyScene.h"
 
